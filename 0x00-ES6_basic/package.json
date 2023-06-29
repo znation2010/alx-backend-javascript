@@ -1,0 +1,30 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "constants",
+  "main": "0-constants.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "npx babel-node --require @babel/register 0-main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moha-mame/alx-backend-javascript/tree/master/0x00-ES6_basic"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "moha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^27.4.5",
+    "jest": "^27.4.7"
+  }
+}
+
